@@ -1,1 +1,1 @@
-# assignemtn 2: Network Models - Project Management
+# assignment 2: Network Models - Project Management
