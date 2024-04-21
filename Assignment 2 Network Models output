@@ -1,0 +1,190 @@
+sergiovalentini@MacBook-Pro-2 msds460-assignment2 % /usr/local/bin/python3 "/Users/sergiovalentini/msds460-assignment2/# assignment 2: Network Models - Project.py"
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pulp/pulp.py:1316: UserWarning: Spaces are not permitted in the name. Converted to '_'
+  warnings.warn("Spaces are not permitted in the name. Converted to '_'")
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/yd/mbd7xrns4zd3z9_v3bfq17j80000gn/T/cc6dab466db848bcb5f37c6162b33a4e-pulp.mps -timeMode elapsed -branch -printingOptions all -solution /var/folders/yd/mbd7xrns4zd3z9_v3bfq17j80000gn/T/cc6dab466db848bcb5f37c6162b33a4e-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 39 COLUMNS
+At line 123 RHS
+At line 158 BOUNDS
+At line 159 ENDATA
+Problem MODEL has 34 rows, 30 columns and 68 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 0 (-34) rows, 0 (-30) columns and 0 (-68) elements
+Empty problem - 0 rows, 0 columns and 0 elements
+Optimal - objective value 1183
+After Postsolve, objective 1183, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 1183 - 0 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.01
+
+------BEST CASE HOURS------
+Critical Path time:
+DescribeProduct starts at time 0
+DevelopMarketingStrategy starts at time 0
+WriteClientProposal ends at 163.0 hours in duration
+
+Solution variable values in time order:
+start_DescribeProduct = 0.0
+start_DevelopMarketingStrategy = 0.0
+end_DescribeProduct = 4.0
+start_DesignBrochure = 4.0
+start_RequirementsAnalysis = 4.0
+end_DesignBrochure = 12.0
+end_RequirementsAnalysis = 12.0
+start_SoftwareDesign = 12.0
+start_SystemDesign = 12.0
+end_DevelopMarketingStrategy = 15.0
+start_SurveyPotentialMarket = 15.0
+end_SurveyPotentialMarket = 40.0
+end_SoftwareDesign = 42.0
+end_SystemDesign = 42.0
+start_Coding = 42.0
+end_Coding = 82.0
+start_UnitTesting = 82.0
+start_WriteDocumentation = 82.0
+end_WriteDocumentation = 97.0
+end_UnitTesting = 107.0
+start_SystemTesting = 107.0
+end_SystemTesting = 132.0
+start_PackageDeliverables = 132.0
+end_PackageDeliverables = 138.0
+start_DevelopImplementationPlan = 138.0
+start_DevelopPricingPlan = 138.0
+end_DevelopPricingPlan = 144.0
+end_DevelopImplementationPlan = 153.0
+start_WriteClientProposal = 153.0
+end_WriteClientProposal = 163.0
+
+------END BEST CASE HOURS------
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/yd/mbd7xrns4zd3z9_v3bfq17j80000gn/T/0020b8e6daaa4f22a42ea441803b009c-pulp.mps -timeMode elapsed -branch -printingOptions all -solution /var/folders/yd/mbd7xrns4zd3z9_v3bfq17j80000gn/T/0020b8e6daaa4f22a42ea441803b009c-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 39 COLUMNS
+At line 123 RHS
+At line 158 BOUNDS
+At line 159 ENDATA
+Problem MODEL has 34 rows, 30 columns and 68 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 0 (-34) rows, 0 (-30) columns and 0 (-68) elements
+Empty problem - 0 rows, 0 columns and 0 elements
+Optimal - objective value 1727
+After Postsolve, objective 1727, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 1727 - 0 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+
+------EXPECTED HOURS------
+Critical Path time:
+DescribeProduct starts at time 0
+DevelopMarketingStrategy starts at time 0
+WriteClientProposal ends at 233.0 hours in duration
+
+Solution variable values in time order:
+start_DescribeProduct = 0.0
+start_DevelopMarketingStrategy = 0.0
+end_DescribeProduct = 8.0
+start_DesignBrochure = 8.0
+start_RequirementsAnalysis = 8.0
+end_RequirementsAnalysis = 20.0
+start_SoftwareDesign = 20.0
+start_SystemDesign = 20.0
+end_DesignBrochure = 23.0
+end_DevelopMarketingStrategy = 25.0
+start_SurveyPotentialMarket = 25.0
+end_SurveyPotentialMarket = 55.0
+end_SoftwareDesign = 65.0
+end_SystemDesign = 65.0
+start_Coding = 65.0
+end_Coding = 120.0
+start_UnitTesting = 120.0
+start_WriteDocumentation = 120.0
+end_WriteDocumentation = 140.0
+end_UnitTesting = 155.0
+start_SystemTesting = 155.0
+end_SystemTesting = 190.0
+start_PackageDeliverables = 190.0
+end_PackageDeliverables = 200.0
+start_DevelopImplementationPlan = 200.0
+start_DevelopPricingPlan = 200.0
+end_DevelopPricingPlan = 208.0
+end_DevelopImplementationPlan = 220.0
+start_WriteClientProposal = 220.0
+end_WriteClientProposal = 233.0
+
+------END EXPECTED HOURS------
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/yd/mbd7xrns4zd3z9_v3bfq17j80000gn/T/2b693a99b1534c7daf8700cba169137c-pulp.mps -timeMode elapsed -branch -printingOptions all -solution /var/folders/yd/mbd7xrns4zd3z9_v3bfq17j80000gn/T/2b693a99b1534c7daf8700cba169137c-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 39 COLUMNS
+At line 123 RHS
+At line 158 BOUNDS
+At line 159 ENDATA
+Problem MODEL has 34 rows, 30 columns and 68 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 0 (-34) rows, 0 (-30) columns and 0 (-68) elements
+Empty problem - 0 rows, 0 columns and 0 elements
+Optimal - objective value 2186
+After Postsolve, objective 2186, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 2186 - 0 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+
+------WORST CASE HOURS------
+Critical Path time:
+DescribeProduct starts at time 0
+DevelopMarketingStrategy starts at time 0
+WriteClientProposal ends at 289.0 hours in duration
+
+Solution variable values in time order:
+start_DescribeProduct = 0.0
+start_DevelopMarketingStrategy = 0.0
+end_DescribeProduct = 12.0
+start_DesignBrochure = 12.0
+start_RequirementsAnalysis = 12.0
+end_RequirementsAnalysis = 27.0
+start_SoftwareDesign = 27.0
+start_SystemDesign = 27.0
+end_DevelopMarketingStrategy = 30.0
+end_DesignBrochure = 32.0
+start_SurveyPotentialMarket = 32.0
+end_SurveyPotentialMarket = 67.0
+end_SoftwareDesign = 87.0
+end_SystemDesign = 87.0
+start_Coding = 87.0
+end_Coding = 157.0
+start_UnitTesting = 157.0
+start_WriteDocumentation = 157.0
+end_WriteDocumentation = 180.0
+end_UnitTesting = 197.0
+start_SystemTesting = 197.0
+end_SystemTesting = 237.0
+start_PackageDeliverables = 237.0
+end_PackageDeliverables = 250.0
+start_DevelopImplementationPlan = 250.0
+start_DevelopPricingPlan = 250.0
+end_DevelopPricingPlan = 260.0
+end_DevelopImplementationPlan = 274.0
+start_WriteClientProposal = 274.0
+end_WriteClientProposal = 289.0
+
+------END WORST CASE HOURS------
