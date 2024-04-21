@@ -1,19 +1,5 @@
 # assignment 2: Network Models - Project Management
 
-'''
-Assumptions that will be made: 
-- all workers charge the same rate
-- the rates should be hourly, maybe $60/hr
-- work should be kept track in hours
-- this is likely a minimization problem
-- Do not address resource constraints in developing the project plan for this assignment. Stick to a straightforward critical path analysis. 
-- workers = supply???
-- tasks = demand???
-- per stackoverflow: Completion time of job A <= Start time of job B
-- we can have more than 1 of each role
-- 
-
-'''
 from pulp import *
 
 # -------------Best Case Hours--------------- 
